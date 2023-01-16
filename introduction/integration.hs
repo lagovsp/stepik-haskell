@@ -1,3 +1,4 @@
+integration :: (Double -> Double) -> Double -> Double -> Double
 integration f a b = countIntegral 0 a (f a) 1 n where
   n = 1000
   step = (b - a) / n
